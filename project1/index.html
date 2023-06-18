@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankHotel</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/styleMobile.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="menuNav">
+                <img src="./assets/images/menu.svg" alt="menu">
+            </div>
+            <div class="logo">
+                <img src="./assets/images/logo.svg" alt="redaily">
+            </div>
+            <nav>
+                <ul>
+                    <li class="navItem"><a href="#">Our products</a></li>
+                    <li class="navItem"><a href="#">Our mission</a></li>
+                    <li class="navItem"><a href="#">How it works</a></li>
+                    <li class="navItem"><a href="#">About Us</a></li>
+                    <li class="navItem"><a href="#">FAQ</a></li>
+                    <li class="navItem"><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="language">
+                English
+                <img src="./assets/images/down.svg" alt="change">
+                <div class="languageMenu">
+                    <ul>
+                        <li><a>English</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="./assets/images/cart.svg" alt="cart">
+                <div class="amount"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="textContent">
+                    <h1>simple <span class="decor">habits</span> matter</h1>
+                    <p>We made eco friendliness easy and accessible.<br> With love and care, ReDaily.</p>
+                    <a class="btn" href="#">
+                        <p>TRY IT</p>
+                        <div class="img"><img src="./assets/images/arrow.svg" alt="go"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="textContent">
+                    <h2>our <span class="decor">products</span></h2>
+                    <h3>personal care</h3>
+                    <p>Choose a product that will make your day brighter. Are you looking for Personal or Home care?</p>
+                    <a class="btn hiddenMobile" href="#">
+                        <p>ALL PRODUCTS</p>
+                        <div class="img"><img src="./assets/images/arrowOrange.svg" alt="right"></div>
+                    </a>
+                </div>
+                <div class="productsItem">
+                    <p class="img"><img src="./assets/images/product.png" alt="Bottle"></p>
+                    <div class="productDescription">
+                        <p class="vendor">DWEBERRY</p>
+                        <p class="name">BODY WASH</p>
+                        <p class="price"><span class="oldPrice">€10</span> €5</p>
+                    </div>
+                </div>
+                <div class="productsItem">
+                    <div class="img"><img src="./assets/images/product.png" alt="Bottle"></div>
+                    <div class="productDescription">
+                        <p class="vendor">DWEBERRY</p>
+                        <p class="name">BODY WASH</p>
+                        <p class="price"><span class="oldPrice">€10</span> €5</p>
+                    </div>
+                </div>
+                <div class="productsItem">
+                    <div class="img"><img src="./assets/images/product.png" alt="Bottle"></div>
+                    <div class="productDescription">
+                        <p class="vendor">DWEBERRY</p>
+                        <p class="name">BODY WASH</p>
+                        <p class="price"><span class="oldPrice">€10</span> €5</p>
+                    </div>
+                </div>
+                <div class="productsItem hiddenPC">
+                    <div class="img"><img src="./assets/images/product.png" alt="Bottle"></div>
+                    <div class="productDescription">
+                        <p class="vendor">DWEBERRY</p>
+                        <p class="name">BODY WASH</p>
+                        <p class="price"><span class="oldPrice">€10</span> €5</p>
+                    </div>
+                </div>
+                <div class="textContent hiddenPC">
+                    <a class="btn" href="#">
+                        <p>ALL PRODUCTS</p>
+                        <div class="img"><img src="./assets/images/arrowOrange.svg" alt="right"></div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="howItWorks">
+            <div class="container">
+                <h2>how it <span class="decor">works</span></h2>
+                <div class="img">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./assets/images/howItWorksMobile.png">
+                        <img src="./assets/images/howItWorks.png" alt="explanation">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <div class="green">
+            <div class="container">
+                <div class="img">
+                    <img src="./assets/images/bottles.png" alt="three bottles">
+                </div>
+                <div class="textContent">
+                    <h2><span class="decor">100% RECYCLED</span> PLASTIC</h2>
+                    <p>We have analyzed over 50 different suppliers to ensure that our bottle is equally beneficial to
+                        your home as well as our planet.</p>
+                </div>
+                <div class="textContent">
+                    <h2><span class="decor">BIODEGRADABLE</span> PACKAGING</h2>
+                    <p>Each subsequent use of ReDaily products will leave no trace on the environment.</p>
+                </div>
+                <div class="img">
+                    <img src="./assets/images/careProducts.png" alt="care products">
+                </div>
+            </div>
+        </div>
+        <section class="whyUs">
+            <div class="container">
+                <h2>WHY <span class="decor">US</span></h2>
+                <div class="whyUsItem">
+                    <div class="img">
+                        <img src="./assets/images/whyUs1.svg" alt="leaf">
+                    </div>
+                    <h3>ENVIRONMENTALLY FRIENDLY</h3>
+                    <div class="line"></div>
+                    <p>Our approach to packaging helps to save up to 96% of potential plastic consumption per year,
+                        while pleasantly surprise you with its eco-friendly composition.</p>
+                </div>
+                <div class="whyUsItem">
+                    <div class="img">
+                        <img src="./assets/images/whyUs2.svg" alt="lamp">
+                    </div>
+                    <h3>FUNCTIONALITY</h3>
+                    <div class="line"></div>
+                    <p>The functionality of the products is no different from other products on the supermarket shelf.
+                        Preserving southing and moisturizing functions of hand wash, thickens hair effects of shampoo,
+                        and effectiveness of household products.</p>
+                </div>
+                <div class="whyUsItem">
+                    <div class="img">
+                        <img src="./assets/images/whyUs3.svg" alt="hands">
+                    </div>
+                    <h3>AVAILABILITY</h3>
+                    <div class="line"></div>
+                    <p>We are working hard to keep our prices as low as possible for you, be on the look out for our
+                        affordable prices at the stores near you.</p>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h2>Product <span class="decor">reviews</span></h2>
+                <div class="left arrow"></div>
+                <div class="reviewsItem">
+                    <div class="quotes"></div>
+                    <p class="text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id nisl quis
+                        enim dignissim sagittis.</p>
+                    <p class="name">Daria</p>
+                    <p class="place">Tallin</p>
+                </div>
+                <div class="reviewsItem hiddenMobile">
+                    <div class="quotes"></div>
+                    <p class="text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id nisl quis
+                        enim dignissim sagittis.</p>
+                    <p class="name">Daria</p>
+                    <p class="place">Tallin</p>
+                </div>
+                <div class="reviewsItem hiddenMobile">
+                    <div class="quotes"></div>
+                    <p class="text">Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Ut id nisl quis
+                        enim dignissim sagittis.</p>
+                    <p class="name">Daria</p>
+                    <p class="place">Tallin</p>
+                </div>
+                <div class="right arrow"></div>
+            </div>
+        </section>
+        <section class="findUs">
+            <div class="container">
+                <div class="textContent">
+                    <h2>Find us on<br><span class="decor">instagram</span></h2>
+                    <div class="links">
+                        <a href="#" target="_blank" class="social">
+                            <div class="img">
+                                <img src="./assets/images/twitter.svg" alt="twitter">
+                            </div>
+                        </a>
+                        <a href="#" target="_blank" class="social">
+                            <div class="img">
+                                <img src="./assets/images/facebook.svg" alt="facebook">
+                            </div>
+                        </a>
+                        <a href="#" target="_blank" class="social">
+                            <div class="img">
+                                <img src="./assets/images/instagram.svg" alt="instagram">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="left arrow hiddenPC"></div>
+                <div class="findUsItem"></div>
+                <div class="findUsItem hiddenMobile"></div>
+                <div class="findUsItem hiddenMobile"></div>
+                <div class="right arrow hiddenPC"></div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="textContent">
+                    <h2><span class="decor">Contacts</span></h2>
+                    <div class="img">
+                        <img src="./assets/images/location.svg" alt="location">
+                    </div>
+                    <p>Narva mnt. 7-634, Kesklinna linnaosa, 10117 Harju maakond, Tallinn, Estonia</p>
+                    <div class="img">
+                        <img src="./assets/images/mail.svg" alt="email">
+                    </div>
+                    <p>feedback@redaily.net</p>
+                    <div class="img">
+                        <img src="./assets/images/phone.svg" alt="telephone">
+                    </div>
+                    <p>+372 584 35143</p>
+                </div>
+                <div class="contactForm">
+                    <h3>Write to us</h3>
+                    <form>
+                        <fieldset>
+                            <input type="email" placeholder="Your Email">
+                            <input type="text" placeholder="What Is Your Name">
+                            <textarea placeholder="Your Message" rows="1"></textarea>
+                        </fieldset>
+                        <input class="btn" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <h2><span class="decor">Subscribe</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <form>
+                    <input class="emailInput" type="email" placeholder="Enter Your Email Here">
+                    <input class="submitBtn" type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo img"><img src="./assets/images/logo.svg" alt="redaily"></div>
+            <div class="separator hiddenPC"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Our products</a></li>
+                    <li><a href="#">Our mission</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li class="hiddenPC"><a href="#">Terms of Use</a></li>
+                    <li class="hiddenPC"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="separator"></div>
+            <div class="links hiddenPC">
+                <a href="#" target="_blank" class="social">
+                    <div class="img">
+                        <img src="./assets/images/twitter.svg" alt="twitter">
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="social">
+                    <div class="img">
+                        <img src="./assets/images/facebook.svg" alt="facebook">
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="social">
+                    <div class="img">
+                        <img src="./assets/images/instagram.svg" alt="instagram">
+                    </div>
+                </a>
+            </div>
+            <div class="copyright">
+                <ul>
+                    <li>@ copyright redaily 2022. All rights reserved</li>
+                    <li class="hiddenMobile"><a href="#">Terms of Use</a></li>
+                    <li class="hiddenMobile"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="links hiddenMobile">
+                <a href="#" target="_blank" class="social">
+                    <div class="img">
+                        <img src="./assets/images/twitter.svg" alt="twitter">
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="social">
+                    <div class="img">
+                        <img src="./assets/images/facebook.svg" alt="facebook">
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="social">
+                    <div class="img">
+                        <img src="./assets/images/instagram.svg" alt="instagram">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
